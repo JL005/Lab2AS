@@ -3,6 +3,8 @@
 ## Juan Felipe Escobar Rendón
 
 [![CI/CD Pipeline](https://github.com/JL005/Lab2AS/actions/workflows/build.yml/badge.svg)](https://github.com/JL005/Lab2AS/actions/workflows/build.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=JL005_Lab2AS&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=JL005_Lab2AS)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=JL005_Lab2AS&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=JL005_Lab2AS)
 
 Implementation of a Simple App with the next operations:
 
