@@ -142,5 +142,5 @@ jobs:
           #From this path
           path: target/lab2-0.0.1-SNAPSHOT.jar
       - name: Execute JAR
-        run: sudo fuser -k 8080/tcp & java -jar /home/ubuntu/actions-runner/_work/Lab2AS/Lab2AS/target/lab2-0.0.1-SNAPSHOT.jar
+        run: sudo fuser -k 8080/tcp & java -jar /home/ubuntu/actions-runner/_work/Lab2AS/Lab2AS/target/lab2-0.0.1-SNAPSHOT.jar & exit 0
 
