@@ -15,6 +15,11 @@
     <description>Laboratorio 2 de Arquitectura de software 2023-2</description>
     <properties>
         <java.version>11</java.version>
+
+        <sonar.organization>jl005</sonar.organization>
+        <sonar.ProjectKey>JL005_Lab2AS</sonar.ProjectKey>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
     </properties>
     <dependencies>
         <dependency>
