@@ -51,4 +51,17 @@ public class DataController {
         }
         return currencies;
     }
+
+    @GetMapping("/characters")
+    public JsonNode getRandomDragonBallCharacter() {
+        var objectMapper = new ObjectMapper();
+        var faker = new Faker(new Locale("en-US"));
+        var dbCharacters = objectMapper.createArrayNode();
+        for (var i = 0; i < 20; i++) {
+            var dbCharacter = faker.dragonBall();
+            dbCharacters.add(objectMapper.createObjectNode()
+                    .put("name", dbCharacter.character()));
+                            }
+        return dbCharacters;
+    }
 }

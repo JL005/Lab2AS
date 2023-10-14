@@ -33,4 +33,10 @@ class Lab2ApplicationTests {
 		Integer nationsLength = dataController.getRandomCurrencies().size();
 		assertEquals(20, nationsLength);
 	}
+
+	@Test
+	void dbCharactersLength() {
+		Integer nationsLength = dataController.getRandomDragonBallCharacter().size();
+		assertEquals(20, nationsLength);
+	}
 }
