@@ -14,7 +14,7 @@ class Lab2ApplicationTests {
 
 	@Test
 	void health() {
-		assertEquals("Se murió la gonorrea", dataController.healthCheck());
+		assertEquals("Página principal del backend", dataController.healthCheck());
 	}
 
 	@Test
